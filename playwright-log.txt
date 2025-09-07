@@ -1,0 +1,923 @@
+{"level":30,"time":"2025-09-07T07:29:27.790Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Listening on 59095"}
+(node:22568) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Aran-Tester\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12208:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Aran-Tester\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13100:59)
+    at PlaywrightServer.setTimeout (C:\Users\Aran-Tester\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13348:57)
+    at Object.onReceiveHalfClose (C:\Users\Aran-Tester\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Aran-Tester\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Aran-Tester\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Aran-Tester\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-09-07T07:29:27.974Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-07T07:29:28.180Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-09-07T07:29:28.181Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-07T07:29:28.181Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-07T07:29:28.187Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-09-07T07:29:28.188Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":700,\"width\":1400}}"}
+{"level":30,"time":"2025-09-07T07:29:28.188Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-09-07T07:29:28.188Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Trace file: "}
+{"level":30,"time":"2025-09-07T07:29:28.198Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Changed active context"}
+{"level":30,"time":"2025-09-07T07:29:28.198Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method newContext"}
+{"level":30,"time":"2025-09-07T07:29:28.202Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-07T07:29:28.202Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-09-07T07:29:28.519Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-07T07:29:28.519Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Changed active page"}
+{"level":30,"time":"2025-09-07T07:29:31.502Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-07T07:29:31.516Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:29:31.844Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:29:32.941Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"responseChunks.length: 1"}
+{"level":30,"time":"2025-09-07T07:29:32.941Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Sending response Response received"}
+{"level":30,"time":"2025-09-07T07:29:32.974Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:29:32.975Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div#pb__collection__list--bc44d161-02c5-49 a.pb__view__all in page."}
+{"level":30,"time":"2025-09-07T07:29:33.299Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:29:33.317Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:33.318Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div#pb__collection__list--bc44d161-02c5-49 a.pb__view__all in page."}
+{"level":30,"time":"2025-09-07T07:29:33.411Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div#pb__collection__list--bc44d161-02c5-49 a.pb__view__all containing /collections/shop-by-brands"}
+{"level":30,"time":"2025-09-07T07:29:33.412Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:33.417Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-07T07:29:33.417Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div#pb__collection__list--bc44d161-02c5-49 a.pb__view__all in page."}
+{"level":30,"time":"2025-09-07T07:29:35.513Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method click"}
+{"level":30,"time":"2025-09-07T07:29:35.521Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:29:35.521Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with text=\"TOP BRANDS\" in page."}
+{"level":30,"time":"2025-09-07T07:29:36.471Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:29:36.481Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-09-07T07:29:36.482Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__all__content div.pb__collection__card in page."}
+{"level":30,"time":"2025-09-07T07:29:36.482Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-09-07T07:29:37.103Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Found 21 elements."}
+{"level":30,"time":"2025-09-07T07:29:37.104Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElements"}
+{"level":30,"time":"2025-09-07T07:29:37.111Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.112Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=0 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.365Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=0 >> div > a:nth-child(1) containing /collections/nike"}
+{"level":30,"time":"2025-09-07T07:29:37.365Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.375Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.375Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=1 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.423Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=1 >> div > a:nth-child(1) containing /collections/skechers"}
+{"level":30,"time":"2025-09-07T07:29:37.423Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.430Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.430Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=2 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.489Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=2 >> div > a:nth-child(1) containing /collections/reebok"}
+{"level":30,"time":"2025-09-07T07:29:37.489Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.494Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.494Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=3 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.539Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=3 >> div > a:nth-child(1) containing /collections/merrell"}
+{"level":30,"time":"2025-09-07T07:29:37.540Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.548Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.548Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=4 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.585Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=4 >> div > a:nth-child(1) containing /collections/columbia"}
+{"level":30,"time":"2025-09-07T07:29:37.585Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.592Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.592Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=5 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.636Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=5 >> div > a:nth-child(1) containing /collections/crocs"}
+{"level":30,"time":"2025-09-07T07:29:37.636Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.644Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.645Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=6 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.695Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=6 >> div > a:nth-child(1) containing /collections/adidas"}
+{"level":30,"time":"2025-09-07T07:29:37.695Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.705Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.705Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=7 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.742Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=7 >> div > a:nth-child(1) containing /collections/fila"}
+{"level":30,"time":"2025-09-07T07:29:37.742Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.752Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.752Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=8 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.812Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=8 >> div > a:nth-child(1) containing /collections/new-balance"}
+{"level":30,"time":"2025-09-07T07:29:37.813Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.820Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.820Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=9 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:37.881Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=9 >> div > a:nth-child(1) containing /collections/asics"}
+{"level":30,"time":"2025-09-07T07:29:37.881Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.891Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:37.891Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=10 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.101Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=10 >> div > a:nth-child(1) containing /collections/speedo"}
+{"level":30,"time":"2025-09-07T07:29:38.101Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.106Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.106Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=11 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.182Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=11 >> div > a:nth-child(1) containing /collections/lfc-brand-page"}
+{"level":30,"time":"2025-09-07T07:29:38.182Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.186Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.186Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=12 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.317Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=12 >> div > a:nth-child(1) containing /collections/hoka"}
+{"level":30,"time":"2025-09-07T07:29:38.317Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.320Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.320Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=13 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.390Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=13 >> div > a:nth-child(1) containing /collections/umbro"}
+{"level":30,"time":"2025-09-07T07:29:38.390Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.394Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.394Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=14 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.403Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=14 >> div > a:nth-child(1) containing /collections/puma"}
+{"level":30,"time":"2025-09-07T07:29:38.403Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.407Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.407Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=15 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.414Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=15 >> div > a:nth-child(1) containing /collections/k-swiss"}
+{"level":30,"time":"2025-09-07T07:29:38.414Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.417Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.417Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=16 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.425Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=16 >> div > a:nth-child(1) containing /collections/under-armour"}
+{"level":30,"time":"2025-09-07T07:29:38.425Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.428Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.429Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=17 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.446Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=17 >> div > a:nth-child(1) containing /collections/champion"}
+{"level":30,"time":"2025-09-07T07:29:38.446Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.450Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.450Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=18 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.459Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=18 >> div > a:nth-child(1) containing /collections/teva"}
+{"level":30,"time":"2025-09-07T07:29:38.459Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.462Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.462Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=19 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.472Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=19 >> div > a:nth-child(1) containing /collections/spur"}
+{"level":30,"time":"2025-09-07T07:29:38.473Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.475Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.475Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.pb__collection__all__content div.pb__collection__card >> nth=20 >> div > a:nth-child(1) in page."}
+{"level":30,"time":"2025-09-07T07:29:38.488Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.pb__collection__all__content div.pb__collection__card >> nth=20 >> div > a:nth-child(1) containing /collections/on-running"}
+{"level":30,"time":"2025-09-07T07:29:38.488Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:38.494Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:40.144Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:40.150Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.150Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.347Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.361Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.361Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.391Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.403Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.403Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.500Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.515Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.515Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.595Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.608Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.608Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.716Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.728Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.728Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.790Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.804Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.804Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.837Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.853Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.853Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.874Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.890Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.890Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.897Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.910Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.910Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.915Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.931Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.931Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.936Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.949Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.949Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:40.981Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.993Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:40.993Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:41.009Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.026Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.027Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:41.035Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.050Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.050Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:41.078Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.092Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.092Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:41.096Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.109Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.109Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:41.112Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.125Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.125Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:41.128Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.142Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:41.142Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.239Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.253Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.253Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:41.573Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:41.576Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-07T07:29:41.576Z","pid":22568,"hostname":"Aran-Tester-LT","Take screenshot with options: ":{"path":"C:\\Users\\Aran-Tester\\Documents\\GitHub\\supersport-add-product-to-cart\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":25000,"omitBackground":false}}
+{"level":30,"time":"2025-09-07T07:29:41.797Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-07T07:29:41.815Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:29:41.815Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list in page."}
+{"level":30,"time":"2025-09-07T07:29:41.821Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:29:41.825Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-09-07T07:29:41.825Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: ul.boost-sd__sorting-list li in page."}
+{"level":30,"time":"2025-09-07T07:29:41.825Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-09-07T07:29:41.839Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Found 10 elements."}
+{"level":30,"time":"2025-09-07T07:29:41.840Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElements"}
+{"level":30,"time":"2025-09-07T07:29:41.843Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.843Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=0 in page."}
+{"level":30,"time":"2025-09-07T07:29:41.864Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=0 containing manual"}
+{"level":30,"time":"2025-09-07T07:29:41.864Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.868Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.868Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=1 in page."}
+{"level":30,"time":"2025-09-07T07:29:41.880Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=1 containing best-selling"}
+{"level":30,"time":"2025-09-07T07:29:41.880Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.887Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.887Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=2 in page."}
+{"level":30,"time":"2025-09-07T07:29:41.913Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=2 containing created-descending"}
+{"level":30,"time":"2025-09-07T07:29:41.913Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.918Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.918Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=3 in page."}
+{"level":30,"time":"2025-09-07T07:29:41.957Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=3 containing number-extra-sort1-descending"}
+{"level":30,"time":"2025-09-07T07:29:41.957Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.960Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:41.960Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=4 in page."}
+{"level":30,"time":"2025-09-07T07:29:42.067Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=4 containing number-extra-sort1-ascending"}
+{"level":30,"time":"2025-09-07T07:29:42.067Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.071Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=5 in page."}
+{"level":30,"time":"2025-09-07T07:29:42.071Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.103Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=5 containing price-descending"}
+{"level":30,"time":"2025-09-07T07:29:42.103Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.106Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.106Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=6 in page."}
+{"level":30,"time":"2025-09-07T07:29:42.118Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=6 containing price-ascending"}
+{"level":30,"time":"2025-09-07T07:29:42.118Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.120Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.120Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=7 in page."}
+{"level":30,"time":"2025-09-07T07:29:42.132Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=7 containing title-ascending"}
+{"level":30,"time":"2025-09-07T07:29:42.132Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.135Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.135Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=8 in page."}
+{"level":30,"time":"2025-09-07T07:29:42.149Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=8 containing title-descending"}
+{"level":30,"time":"2025-09-07T07:29:42.149Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.152Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.152Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with ul.boost-sd__sorting-list li >> nth=9 in page."}
+{"level":30,"time":"2025-09-07T07:29:42.183Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element ul.boost-sd__sorting-list li >> nth=9 containing relevance"}
+{"level":30,"time":"2025-09-07T07:29:42.183Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:42.188Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-09-07T07:29:42.188Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with li[data-value=\"number-extra-sort1-descending\"] in page."}
+{"level":30,"time":"2025-09-07T07:29:42.206Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-09-07T07:29:42.217Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.217Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.boost-sd__product-item-grid-view-layout-image in page."}
+{"level":30,"time":"2025-09-07T07:29:42.237Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.243Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.243Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.268Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.281Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.281Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.304Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.318Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.318Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.340Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.356Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.357Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.366Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.383Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.383Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.388Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.404Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.404Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.412Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.426Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.426Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.430Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.445Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.445Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.450Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.464Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.464Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.486Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.501Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.501Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.515Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.528Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.528Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.540Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.554Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.554Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.565Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.579Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.580Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.584Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.599Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.599Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.603Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.616Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.616Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.620Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.633Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.633Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.636Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.648Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.648Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.651Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.663Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.664Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.681Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.693Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.693Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.712Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.724Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.724Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.726Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.738Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.738Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.742Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.754Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.754Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.758Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.772Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.772Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.776Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.789Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.789Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.792Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.804Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.804Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.807Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.819Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.819Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.822Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.833Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.834Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.836Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.848Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.848Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.852Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.864Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.864Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.866Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.879Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.879Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.884Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.897Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.897Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.900Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.912Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.913Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.916Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.928Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.928Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.934Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.951Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.951Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:42.981Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:42.987Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-09-07T07:29:42.987Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.boost-sd__product-item-grid-view-layout-image > a in page."}
+{"level":30,"time":"2025-09-07T07:29:42.987Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-09-07T07:29:43.000Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Found 25 elements."}
+{"level":30,"time":"2025-09-07T07:29:43.000Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElements"}
+{"level":30,"time":"2025-09-07T07:29:43.006Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.006Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=0 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.149Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=0 containing /products/on-running-cloudrunner-2-waterproof-mens-running-shoes-on497sh933eeth-3me10152130"}
+{"level":30,"time":"2025-09-07T07:29:43.149Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.154Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.154Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=1 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.216Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=1 containing /products/on-running-cloudrunner-2-mens-running-shoes-on497sh932eeth-3me10140622"}
+{"level":30,"time":"2025-09-07T07:29:43.216Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.223Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.223Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=2 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.243Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=2 containing /products/on-running-cloudeclipse-mens-running-shoes-on497sh929eeth-3md30092547"}
+{"level":30,"time":"2025-09-07T07:29:43.243Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.247Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.247Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=3 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.258Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=3 containing /products/on-running-cloudspark-mens-running-shoes-on497sh934eeth-3me10391947"}
+{"level":30,"time":"2025-09-07T07:29:43.258Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.262Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.262Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=4 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.276Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=4 containing /products/on-running-cloudsurfer-next-women-running-shoes-on497sh373dzth-3we30050070"}
+{"level":30,"time":"2025-09-07T07:29:43.276Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.280Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.280Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=5 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.289Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=5 containing /products/on-running-cloudmonster-hyper-women-running-shoes-on497sh362ecth-3we10121481"}
+{"level":30,"time":"2025-09-07T07:29:43.289Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.292Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.292Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=6 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.303Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=6 containing /products/on-running-cloudmonster-hyper-men-running-shoes-on497sh361ecth-3me10132535"}
+{"level":30,"time":"2025-09-07T07:29:43.303Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.306Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.306Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=7 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.315Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=7 containing /products/on-running-road-on497sh302epth-3wf10100171"}
+{"level":30,"time":"2025-09-07T07:29:43.315Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.319Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.319Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=8 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.332Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=8 containing /products/on-running-road-on497sh301epth-3wf10061200"}
+{"level":30,"time":"2025-09-07T07:29:43.332Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.335Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.335Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=9 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.343Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=9 containing /products/on-running-road-on497sh300epth-3wf10060299"}
+{"level":30,"time":"2025-09-07T07:29:43.343Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.345Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.345Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=10 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.352Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=10 containing /products/on-running-road-on497sh299epth-3wf10060070"}
+{"level":30,"time":"2025-09-07T07:29:43.353Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.355Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.355Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=11 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.363Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=11 containing /products/on-running-trail-on497sh298epth-3mf30223072"}
+{"level":30,"time":"2025-09-07T07:29:43.363Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.365Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.365Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=12 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.373Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=12 containing /products/on-x-training-gymtraining-shoes-on497sh297epth-3md30063007"}
+{"level":30,"time":"2025-09-07T07:29:43.373Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.375Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.375Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=13 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.386Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=13 containing /products/on-x-training-gymtraining-shoes-on497sh296epth-3me30043558"}
+{"level":30,"time":"2025-09-07T07:29:43.386Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.388Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.388Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=14 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.396Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=14 containing /products/on-x-training-gymtraining-shoes-on497sh295epth-3me30043072"}
+{"level":30,"time":"2025-09-07T07:29:43.396Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.399Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.399Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=15 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.407Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=15 containing /products/on-running-road-on497sh037eoth-3wf30223297"}
+{"level":30,"time":"2025-09-07T07:29:43.407Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.409Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.409Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=16 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.417Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=16 containing /products/on-running-road-on497sh036eoth-3wf30221200"}
+{"level":30,"time":"2025-09-07T07:29:43.417Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.421Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.421Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=17 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.433Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=17 containing /products/on-running-road-on497sh035eoth-3mf30431200"}
+{"level":30,"time":"2025-09-07T07:29:43.433Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.435Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.436Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=18 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.444Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=18 containing /products/on-running-road-on497sh550enth-3wf30184229"}
+{"level":30,"time":"2025-09-07T07:29:43.444Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.448Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.448Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=19 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.455Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=19 containing /products/on-running-road-on497sh549enth-3wf30180462"}
+{"level":30,"time":"2025-09-07T07:29:43.455Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.457Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.457Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=20 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.468Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=20 containing /products/on-running-trail-on497sh548enth-3wf30114105"}
+{"level":30,"time":"2025-09-07T07:29:43.468Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.472Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.472Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=21 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.489Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=21 containing /products/on-running-trail-on497sh547enth-3wf30103297"}
+{"level":30,"time":"2025-09-07T07:29:43.489Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.492Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.492Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=22 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.501Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=22 containing /products/on-running-trail-on497sh546enth-3wf30094107"}
+{"level":30,"time":"2025-09-07T07:29:43.501Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.503Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.503Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=23 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.512Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=23 containing /products/on-running-road-on497sh545enth-3wf10102143"}
+{"level":30,"time":"2025-09-07T07:29:43.513Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.516Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.516Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=24 in page."}
+{"level":30,"time":"2025-09-07T07:29:43.523Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=24 containing /products/on-running-road-on497sh544enth-3wf10060755"}
+{"level":30,"time":"2025-09-07T07:29:43.523Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:43.527Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:44.845Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:44.851Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:44.851Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.074Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.086Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.086Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.091Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.104Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.104Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.107Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.119Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.119Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.139Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.151Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.152Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.154Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.166Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.167Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.169Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.184Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.184Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.187Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.199Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.199Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.211Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.224Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.224Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.226Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.238Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.238Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.241Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.255Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.255Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.257Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.269Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.269Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.272Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.285Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.285Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.287Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.299Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.299Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.309Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.321Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.322Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.325Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.337Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.337Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.362Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.374Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.374Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.434Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.446Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.447Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.496Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.512Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.512Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.600Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.614Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.614Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.639Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.653Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.653Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.658Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.671Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.671Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.687Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.700Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.700Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.704Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.717Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.717Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.724Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.736Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.736Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.751Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.766Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.766Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.793Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.805Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.805Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.816Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.831Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.831Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.844Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.856Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.856Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.860Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.872Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.872Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.879Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.892Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.892Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.895Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.907Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.907Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.909Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.921Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.921Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.924Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.935Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.935Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.942Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.954Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.954Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.957Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.969Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.969Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.971Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.985Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:45.985Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:45.989Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.000Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.000Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:46.003Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.016Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.017Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:46.020Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.033Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.033Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:46.036Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.048Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.048Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:46.051Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.063Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.063Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:46.066Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.078Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.078Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.pb__collection__list.pb__section in page."}
+{"level":30,"time":"2025-09-07T07:29:46.082Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:46.084Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-07T07:29:46.084Z","pid":22568,"hostname":"Aran-Tester-LT","Take screenshot with options: ":{"path":"C:\\Users\\Aran-Tester\\Documents\\GitHub\\supersport-add-product-to-cart\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":25000,"omitBackground":false}}
+{"level":30,"time":"2025-09-07T07:29:47.159Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-07T07:29:47.166Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-09-07T07:29:47.166Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with li[data-value=\"manual\"] in page."}
+{"level":30,"time":"2025-09-07T07:29:47.296Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2025-09-07T07:29:47.304Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.304Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.boost-sd__product-item-grid-view-layout-image in page."}
+{"level":30,"time":"2025-09-07T07:29:47.354Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.358Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.358Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.385Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.399Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.399Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.420Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.434Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.434Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.473Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.486Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.486Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.499Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.513Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.513Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.517Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.530Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.530Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.535Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.548Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.548Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.580Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.593Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.593Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.596Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.608Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.608Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.614Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.627Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.628Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.640Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.653Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.653Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.666Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.678Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.679Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.683Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.696Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.696Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.701Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.715Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.715Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.719Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.731Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.731Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.733Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.745Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.745Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.748Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.759Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.759Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.762Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.773Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.773Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.775Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.787Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.787Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.789Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.801Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.801Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.803Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.815Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.815Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.831Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.843Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.843Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.845Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.857Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.857Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.860Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.871Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.871Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.874Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.885Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.886Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.889Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.900Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.900Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.903Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.915Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.915Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.917Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.929Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.929Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#boost-sd-loading-icon-filter.boost-sd__g-hide in page."}
+{"level":30,"time":"2025-09-07T07:29:47.960Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:47.966Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-09-07T07:29:47.966Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div.boost-sd__product-item-grid-view-layout-image > a in page."}
+{"level":30,"time":"2025-09-07T07:29:47.966Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-09-07T07:29:47.975Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Found 25 elements."}
+{"level":30,"time":"2025-09-07T07:29:47.975Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElements"}
+{"level":30,"time":"2025-09-07T07:29:47.978Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:47.978Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=0 in page."}
+{"level":30,"time":"2025-09-07T07:29:47.992Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=0 containing /products/speedo-eq-other-fin-sp111ac412eith-8-00536300334"}
+{"level":30,"time":"2025-09-07T07:29:47.992Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:47.995Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:47.995Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=1 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.062Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=1 containing /products/speedo-flat-silicone-unisex-swim-cap-sp111sp685cyth-8-709910001"}
+{"level":30,"time":"2025-09-07T07:29:48.062Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.066Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.066Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=2 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.148Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=2 containing /products/speedo-infant-spot-boys-goggles-sp111ac445cvth-8-0838214641"}
+{"level":30,"time":"2025-09-07T07:29:48.148Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.150Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.151Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=3 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.194Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=3 containing /products/speedo-eq-other-fin-sp111ac051eoth-8-00536101653"}
+{"level":30,"time":"2025-09-07T07:29:48.195Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.198Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.198Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=4 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.208Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=4 containing /products/speedo-biofuse-20-mens-goggles-sp111ac464dcth-8-00233214515"}
+{"level":30,"time":"2025-09-07T07:29:48.208Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.210Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.210Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=5 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.223Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=5 containing /products/speedo-colourblock-rash-top-jammer-set-boys-swimsuit-sp111sp429egth-8-00381100334"}
+{"level":30,"time":"2025-09-07T07:29:48.223Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.226Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.226Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=6 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.237Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=6 containing /products/speedo-fastskin-hyper-elite-mirror-mens-goggles-sp111ac542eeth-8-1281817218"}
+{"level":30,"time":"2025-09-07T07:29:48.237Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.240Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.240Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=7 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.250Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=7 containing /products/speedo-fastskin-hyper-elite-mirror-men-goggles-sp111ac221coth-8-12819f979"}
+{"level":30,"time":"2025-09-07T07:29:48.250Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.254Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.254Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=8 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.267Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=8 containing /products/speedo-performance-swimwear-swim-fitness-sp111sp139enth-8-00449518661"}
+{"level":30,"time":"2025-09-07T07:29:48.267Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.271Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.271Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=9 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.281Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=9 containing /products/speedo-goggle-biofuse-sp111ac156enth-8-12818f976"}
+{"level":30,"time":"2025-09-07T07:29:48.281Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.284Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.284Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=10 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.293Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=10 containing /products/speedo-performance-swimwear-swim-fitness-sp111sp134enth-8-00325216592"}
+{"level":30,"time":"2025-09-07T07:29:48.293Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.296Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.296Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=11 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.304Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=11 containing /products/speedo-performance-swimwear-swim-fitness-sp111sp154enth-8-1245318661"}
+{"level":30,"time":"2025-09-07T07:29:48.304Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.307Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.307Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=12 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.313Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=12 containing /products/speedo-futura-classic-junior-boys-goggles-sp111ac907cath-8-10900b991"}
+{"level":30,"time":"2025-09-07T07:29:48.313Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.315Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.315Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=13 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.321Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=13 containing /products/speedo-8-00381206098-unisex-goggle-case-sp111ac740dsth-8-00381206098"}
+{"level":30,"time":"2025-09-07T07:29:48.321Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.323Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.323Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=14 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.329Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=14 containing /products/speedo-eq-other-fin-sp111ac052eoth-8-00536301653"}
+{"level":30,"time":"2025-09-07T07:29:48.329Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.331Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.331Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=15 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.336Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=15 containing /products/speedo-performance-swimwear-swim-fitness-sp111sp874enth-8-16092h897"}
+{"level":30,"time":"2025-09-07T07:29:48.336Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.338Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.338Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=16 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.344Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=16 containing /products/speedo-allover-digital-v-cut-aquashort-men-swim-shorts-sp111sp437dtth-8-00381816761"}
+{"level":30,"time":"2025-09-07T07:29:48.344Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.346Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.346Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=17 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.351Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=17 containing /products/speedo-fastskin-lzr-ignite-openback-kneeskin-women-swimsuit-sp111sp044ddth-8-134370001"}
+{"level":30,"time":"2025-09-07T07:29:48.351Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.353Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.353Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=18 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.359Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=18 containing /products/speedo-performance-swimwear-swim-fitness-sp111sp542ejth-8-16035h879"}
+{"level":30,"time":"2025-09-07T07:29:48.359Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.361Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.361Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=19 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.368Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=19 containing /products/speedo-placement-extra-low-leg-womens-swimsuit-sp111sp426egth-8-00376818392"}
+{"level":30,"time":"2025-09-07T07:29:48.368Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.370Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.370Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=20 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.376Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=20 containing /products/speedo-performance-swimwear-competitive-sp111sp838elth-8-11979g610"}
+{"level":30,"time":"2025-09-07T07:29:48.376Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.378Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=21 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.378Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.385Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=21 containing /products/speedo-fastskin-hyper-elite-mirror-mens-goggles-sp111ac956drth-8-1281916740"}
+{"level":30,"time":"2025-09-07T07:29:48.385Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.387Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.387Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=22 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.395Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=22 containing /products/speedo-sleeveless-kneesuit-womens-swimsuit-sp111sp455egth-8-1295617926"}
+{"level":30,"time":"2025-09-07T07:29:48.395Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.397Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.397Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=23 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.403Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=23 containing /products/speedo-endurance-legsuit-girls-swimsuit-sp111sp970duth-8-0031090001"}
+{"level":30,"time":"2025-09-07T07:29:48.403Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.405Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.405Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.boost-sd__product-item-grid-view-layout-image > a >> nth=24 in page."}
+{"level":30,"time":"2025-09-07T07:29:48.411Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element div.boost-sd__product-item-grid-view-layout-image > a >> nth=24 containing /products/speedo-equipment-mesh-bag-unisex-gym-sack-sp111ac081cqth-8-074070001"}
+{"level":30,"time":"2025-09-07T07:29:48.411Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:48.415Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:50.279Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:50.610Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"responseChunks.length: 1"}
+{"level":30,"time":"2025-09-07T07:29:50.610Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Sending response Response received"}
+{"level":30,"time":"2025-09-07T07:29:50.619Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-07T07:29:50.619Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with button.product-form__submit in page."}
+{"level":30,"time":"2025-09-07T07:29:51.977Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method click"}
+{"level":30,"time":"2025-09-07T07:29:54.033Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"responseChunks.length: 1"}
+{"level":30,"time":"2025-09-07T07:29:54.033Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Sending response Response received"}
+{"level":30,"time":"2025-09-07T07:29:54.045Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:55.801Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:56.203Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"responseChunks.length: 1"}
+{"level":30,"time":"2025-09-07T07:29:56.203Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Sending response Response received"}
+{"level":30,"time":"2025-09-07T07:29:56.210Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-07T07:29:56.210Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with button.product-form__submit in page."}
+{"level":30,"time":"2025-09-07T07:29:56.374Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method click"}
+{"level":30,"time":"2025-09-07T07:29:58.524Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"responseChunks.length: 1"}
+{"level":30,"time":"2025-09-07T07:29:58.524Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Sending response Response received"}
+{"level":30,"time":"2025-09-07T07:29:58.538Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:59.426Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-07T07:29:59.433Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:59.433Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is disabled, return Locator: div#main-cart-items tr in page."}
+{"level":30,"time":"2025-09-07T07:29:59.866Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-09-07T07:29:59.878Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:29:59.878Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 in page."}
+{"level":30,"time":"2025-09-07T07:29:59.955Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:29:59.959Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:29:59.959Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 td.cart-item__media img in page."}
+{"level":30,"time":"2025-09-07T07:30:00.126Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element tr#CartItem-1 td.cart-item__media img containing //www.supersports.co.th/cdn/shop/files/SP111AC052EOTH-0.jpg?v=1754551424&width=110"}
+{"level":30,"time":"2025-09-07T07:30:00.126Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.131Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.132Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 td.information p.product-vendor in page."}
+{"level":30,"time":"2025-09-07T07:30:00.185Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-1 td.information p.product-vendor containing SPEEDO"}
+{"level":30,"time":"2025-09-07T07:30:00.186Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.193Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.193Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 td.information div > a in page."}
+{"level":30,"time":"2025-09-07T07:30:00.215Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element tr#CartItem-1 td.information div > a containing /products/speedo-eq-other-fin-sp111ac052eoth-8-00536301653?variant=50481091936544"}
+{"level":30,"time":"2025-09-07T07:30:00.215Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.220Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.221Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 td.information div > a in page."}
+{"level":30,"time":"2025-09-07T07:30:00.236Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-1 td.information div > a containing SPEEDO DMC Elite Max ตีนกบผู้ใหญ่"}
+{"level":30,"time":"2025-09-07T07:30:00.236Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.241Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.241Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 td.information div.product-option in page."}
+{"level":30,"time":"2025-09-07T07:30:00.253Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-1 td.information div.product-option containing สีฟ้า (Blue) / XS"}
+{"level":30,"time":"2025-09-07T07:30:00.254Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.258Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.258Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 td.price-desktop strong.cart-item__final-price in page."}
+{"level":30,"time":"2025-09-07T07:30:00.270Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-1 td.price-desktop strong.cart-item__final-price containing ฿3,190"}
+{"level":30,"time":"2025-09-07T07:30:00.270Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.274Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.274Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 td.cart-item__quantity input.quantity__input in page."}
+{"level":30,"time":"2025-09-07T07:30:00.288Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element tr#CartItem-1 td.cart-item__quantity input.quantity__input containing 1"}
+{"level":30,"time":"2025-09-07T07:30:00.288Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.290Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.290Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-1 td.cart-item__totals .price--end in page."}
+{"level":30,"time":"2025-09-07T07:30:00.311Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-1 td.cart-item__totals .price--end containing ฿3,190"}
+{"level":30,"time":"2025-09-07T07:30:00.312Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.322Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:30:00.322Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 in page."}
+{"level":30,"time":"2025-09-07T07:30:00.326Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:30:00.331Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.331Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.cart-item__media img in page."}
+{"level":30,"time":"2025-09-07T07:30:00.341Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element tr#CartItem-2 td.cart-item__media img containing //www.supersports.co.th/cdn/shop/files/ON497SH373DZTH-0.jpg?v=1739353916&width=110"}
+{"level":30,"time":"2025-09-07T07:30:00.341Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.345Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.345Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.information p.product-vendor in page."}
+{"level":30,"time":"2025-09-07T07:30:00.355Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-2 td.information p.product-vendor containing ON"}
+{"level":30,"time":"2025-09-07T07:30:00.355Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.357Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.357Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.information div > a in page."}
+{"level":30,"time":"2025-09-07T07:30:00.368Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element tr#CartItem-2 td.information div > a containing /products/on-running-cloudsurfer-next-women-running-shoes-on497sh373dzth-3we30050070?variant=49921155662112"}
+{"level":30,"time":"2025-09-07T07:30:00.368Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.371Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.371Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.information div > a in page."}
+{"level":30,"time":"2025-09-07T07:30:00.380Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-2 td.information div > a containing ON RUNNING Cloudsurfer Next รองเท้าวิ่งผู้หญิง"}
+{"level":30,"time":"2025-09-07T07:30:00.380Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.384Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.384Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.information div.product-option in page."}
+{"level":30,"time":"2025-09-07T07:30:00.392Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-2 td.information div.product-option containing สีเทา (Grey) / US 6"}
+{"level":30,"time":"2025-09-07T07:30:00.392Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.395Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.396Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.price-desktop span.cart-item__old-price in page."}
+{"level":30,"time":"2025-09-07T07:30:00.405Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-2 td.price-desktop span.cart-item__old-price containing ฿6,200"}
+{"level":30,"time":"2025-09-07T07:30:00.405Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.408Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.408Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.price-desktop strong.cart-item__final-price in page."}
+{"level":30,"time":"2025-09-07T07:30:00.418Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-2 td.price-desktop strong.cart-item__final-price containing ฿5,580"}
+{"level":30,"time":"2025-09-07T07:30:00.418Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.421Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.421Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.cart-item__quantity input.quantity__input in page."}
+{"level":30,"time":"2025-09-07T07:30:00.429Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved attribute for element tr#CartItem-2 td.cart-item__quantity input.quantity__input containing 1"}
+{"level":30,"time":"2025-09-07T07:30:00.429Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-09-07T07:30:00.432Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.432Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with tr#CartItem-2 td.cart-item__totals .price--end in page."}
+{"level":30,"time":"2025-09-07T07:30:00.438Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element tr#CartItem-2 td.cart-item__totals .price--end containing ฿5,580"}
+{"level":30,"time":"2025-09-07T07:30:00.438Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.440Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.441Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with span.origin-total-price in page."}
+{"level":30,"time":"2025-09-07T07:30:00.451Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Retrieved dom property for element span.origin-total-price containing ฿8,770"}
+{"level":30,"time":"2025-09-07T07:30:00.451Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-09-07T07:30:00.454Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-07T07:30:00.846Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-07T07:30:00.848Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:30:00.849Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.form-header cart-remove-all.clear-cart in page."}
+{"level":30,"time":"2025-09-07T07:30:01.105Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-07T07:30:01.114Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-07T07:30:01.114Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Strict mode is enabled, find Locator with div.form-header cart-remove-all.clear-cart in page."}
+{"level":30,"time":"2025-09-07T07:30:01.485Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method click"}
+{"level":30,"time":"2025-09-07T07:30:01.865Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"responseChunks.length: 1"}
+{"level":30,"time":"2025-09-07T07:30:01.865Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Sending response Response received"}
+{"level":30,"time":"2025-09-07T07:30:02.166Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Sending response Response received"}
+{"level":30,"time":"2025-09-07T07:30:02.166Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"responseChunks.length: 1"}
+{"level":30,"time":"2025-09-07T07:30:02.173Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.179Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.188Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.189Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.191Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.192Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.194Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.195Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.197Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.200Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-07T07:30:02.204Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Changed active context"}
+{"level":30,"time":"2025-09-07T07:30:02.204Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Changing current active page: page=6500f955-c258-4cd4-973b-1d4183b17603"}
+{"level":30,"time":"2025-09-07T07:30:02.204Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Changed active page"}
+{"level":30,"time":"2025-09-07T07:30:02.216Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-07T07:30:02.290Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Removed page=4aff360a-619d-4086-b0fa-f8e0618bf2c7 from context=6a1cfdcb-4ef8-44b3-9c72-56484c111b4d page stack"}
+{"level":30,"time":"2025-09-07T07:30:02.315Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-07T07:30:02.507Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-07T07:30:02.700Z","pid":22568,"hostname":"Aran-Tester-LT","msg":"End of node method closeAllBrowsers"}
