@@ -1,6 +1,3 @@
-```bash
-robot -t "Add Products To Cart" tests/supersport_cart.robot
-```
 
 # Supersports Cart Automation
 
