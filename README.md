@@ -1,3 +1,7 @@
+```bash
+robot -t "Add Products To Cart" tests/supersport_cart.robot
+```
+
 # Supersports Cart Automation
 
 ชุดทดสอบอัตโนมัติด้วย Robot Framework และ Browser library สำหรับเพิ่มสินค้าในตะกร้า, จัดเรียงสินค้า, และตรวจสอบเนื้อหาในตะกร้าของเว็บไซต์ Supersports
@@ -17,41 +21,41 @@
 การติดตั้ง (Installation)
 
 โคลนโปรเจค:
-<pre>
+```bash
   git clone https://github.com/NolaniA/supersport-add-product-to-cart.git
-</pre>
+```
 
-<pre>
+```bash
   cd "repo-directory"
-</pre>
+```
 
 
 สร้าง environment ของ Python (แนะนำเพื่อไม่ให้กระทบระบบ):
-<pre>
+```bash
   python -m venv venv
   source venv/bin/activate    # Linux / macOS
   venv\Scripts\activate       # Windows
-</pre>
+```
 
 
 ติดตั้งแพ็กเกจที่จำเป็น:
-<pre>
+```bash
   pip install --upgrade pip
   pip install robotframework
   pip install robotframework-browser
-</pre>
+```
 
 
 ติดตั้งเบราว์เซอร์ที่ Browser library ใช้:
-<pre>
+```bash
   rfbrowser init
-</pre>
+```
 
 
 โดยปกติจะติดตั้ง Chromium หากต้องการ Firefox หรือ WebKit เพิ่ม ให้รัน:
-<pre>
+```bash
   rfbrowser init --browsers firefox,webkit
-</pre>
+```
   
 
 การตั้งค่า (Configuration)
@@ -129,20 +133,20 @@ Add Products To Cart
 การรัน (How to Run)
 
 รันทั้งหมด:
-<pre>
+```bash
   robot supersport_add_cart.robot
-</pre>
+```
 
 
 รันเฉพาะ Test Case:
-<pre>
+```bash
   robot -t "Add Products To Cart" supersport_add_cart.robot
-</pre>
+```
 
 หรือ
-<pre>
+```bash
   robot -t "Add Products To Cart" *.robot
-</pre>
+```
 
   ****** ผลลัพธ์และ logs จะถูกเก็บในโฟลเดอร์ results ******
 
