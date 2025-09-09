@@ -6,6 +6,7 @@ LIMIT_TOP_BRAND = 2   # 0 : get all top brand
 
 
 # dictionary
+CART = {}
 ITEM_PRODUCT = {}
 
 # list
@@ -45,6 +46,7 @@ SELECTOR = {
     "final_price_cart_list" : "td.price-desktop strong.cart-item__final-price",
     "quantity_cart_list" : "td.cart-item__quantity input.quantity__input",
     "price_end_cart_list" : "td.cart-item__totals .price--end",
-    "total_bill_cart" : "span.origin-total-price"
+    "total_bill_cart" : "span.origin-total-price",
+    "headmenu_view_all_top_brand" : "a#HeaderMenu-brands"
 
 }

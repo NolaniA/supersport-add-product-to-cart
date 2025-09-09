@@ -17,6 +17,7 @@ ${BROWSER}    chromium
 ${HEADLESS}    ${False}
 
 
+
 *** Test Cases ***
 
 Add Products To Cart
@@ -149,13 +150,24 @@ Remove All Items From Cart
 View All Top Brands From Home Page
     [Documentation]    Click "View All Top Brands" link from home page and wait for page load
     # wait text link of page top brand and click text link
-    Wait For Elements State    ${SELECTOR['text_view_all_top_brand']}     attached    
+    ${text_view_all_is_show}    Run Keyword And Return Status    
+        ...    Get Element Count    
+        ...    ${SELECTOR['text_view_all_top_brand']}     
+        ...    >=    ${1}
+    
+    # set selector dynamic 
+    ${selector_view_all_top_brand}    Set Variable If    
+        ...    ${text_view_all_is_show}    
+        ...    ${SELECTOR['text_view_all_top_brand']}    
+        ...    ${SELECTOR['headmenu_view_all_top_brand']}
+    
+
     # get href as expected of click
     ${page_url_top_brand}    Get Attribute    
-        ...    ${SELECTOR['text_view_all_top_brand']}    
+        ...    ${selector_view_all_top_brand}    
         ...    attribute=href
 
-    Click    ${SELECTOR['text_view_all_top_brand']}
+    Click    ${selector_view_all_top_brand}
     
     # wait page top brand active
     Wait Until Keyword Succeeds    1m    2s
@@ -215,7 +227,7 @@ Add Product To Cart
         Go To    ${BASE_URL}${path}    wait_until=domcontentloaded
 
         # get product detail
-        WHILE    ${True}
+        WHILE    ${True}    limit=100
             ${respone_product_detail}    Wait For Response    ${API['product_detail']}${path}.js
             Run Keyword If    ${respone_product_detail['status']} == ${200}    
                 ...    Exit For Loop
@@ -250,8 +262,8 @@ Remove All Items In Cart
     Wait For Elements State    ${SELECTOR['text_clear_cart']}    attached
     Click    ${SELECTOR['text_clear_cart']}
     # wait clear cart success
-    ${respone_clear_success}    Wait For Response    ${API['clear_cart']}
-    ${response_cart_detail}    Wait For Response    ${API['cart_detail']}**
+    ${respone_clear_success}    Wait For Response    ${API['clear_cart']}    timeout=10s
+    ${response_cart_detail}    Wait For Response    ${API['cart_detail']}**    timeout=10s
 
 Validate Products In Cart    
     [Documentation]    Validate that all products in the cart match the added products, including:
@@ -300,7 +312,7 @@ Validate Products In Cart
         ${original_price}    Get From Dictionary    ${data_item}    compare_at_price
         ${old_price}    Evaluate    "{:,}".format(int(${original_price} / 100))
 
-        ${current_price}    Get From Dictionary    ${data_item}    price     
+        ${current_price}    Get From Dictionary    ${detail_item}    final_price     
         ${final_price}    Evaluate    "{:,}".format(int(${current_price} / 100))
         ${total_bill}    Evaluate    int(${total_bill} + ${current_price})
 
