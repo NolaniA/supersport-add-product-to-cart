@@ -48,5 +48,4 @@ SELECTOR = {
     "price_end_cart_list" : "td.cart-item__totals .price--end",
     "total_bill_cart" : "span.origin-total-price",
     "headmenu_view_all_top_brand" : "a#HeaderMenu-brands"
-
 }
